@@ -54,11 +54,30 @@ function sumOfSquares(numbers) {
   return numbers.reduce((accumulator, value) => { return value * value + accumulator; }, 0);
 }
 
-console.log(sumOfSquares(numbers));
+//console.log(sumOfSquares(numbers));
 
 
 function oddLengthsR(array) {
   return array.reduce((accumulator, value) => { if (value.length % 2 != 0) { accumulator.push(value.length); } return accumulator; }, [] );
 }
 
-//console.log(oddLengthsR(arr));
+// console.log(oddLengthsR(arr));
+
+
+// Q.8
+let numbers1 = [1, 3, 5, 7, 9, 11];
+let numbers2 = [];
+let numbers3 = [2, 4, 6, 8];
+
+numbers2.includes(3);
+
+let arir = [["test", "hello", "world"], ["example", 6, "mem", null], [4, 8, 12]];
+function findMem(a) {
+  if (
+  function(a) {
+    return a.forEach(ar => ar.includes("mem"));
+  }) {
+    return true;
+  }
+}
+console.log(findMem(arir));
